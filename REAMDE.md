@@ -1,1 +1,8 @@
 # ESERCITAZIONE DI GRUPPO 4
+
+Dario 1 ISSUE
+Antonino 2 ISSUE
+Alessia 3 ISSUE
+Marco 4 ISSUE
+AB 5 ISSUE
+Simone 6 ISSUE
