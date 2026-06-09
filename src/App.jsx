@@ -34,6 +34,23 @@ function App() {
         </div>
       </div>
 
+      <main>
+        <h1>EventBoard</h1>
+
+        <p>Eventi trovati: {sortedEvents.length}</p>
+
+        <ul>
+          {sortedEvents.map((event) => (
+            <li key={event.id}>
+              <h2>{event.title}</h2>
+              <p>Data: {event.date}</p>
+              <p>Categoria: {event.category}</p>
+              <p>Stato: {event.status}</p>
+            </li>
+          ))}
+        </ul>
+      </main>
+
       <p className="text-muted">
         Hai selezionato: <strong className="text-dark">{option}</strong>
       </p>
