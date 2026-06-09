@@ -3,7 +3,10 @@ import Main from "./components/Main/Main";
 
 function App() {
   return (
-    <Main />
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 export default App;
