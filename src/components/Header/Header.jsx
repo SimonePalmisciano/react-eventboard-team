@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <div>Header</div>
+        <div>Layout della pagina</div>
     )
 }
 export default Header
