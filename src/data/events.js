@@ -70,3 +70,5 @@ export const events = [
         status: 'aperto'
     }
 ]
+
+export default events;
