@@ -24,7 +24,8 @@ function App() {
         </div>
         <div className="col-auto">
           <select
-            id="filtro-categoria" className="form-select" value={option} onChange={(e) => setOption(e.target.value)}>
+            id="filtro-categoria" 
+            className="form-select" value={option} onChange={(e) => setOption(e.target.value)}>
             <option value="Tutti">Tutti</option>
             <option value="Conferenze">Conferenze</option>
             <option value="Workshop">Workshop</option>
