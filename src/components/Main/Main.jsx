@@ -1,6 +1,11 @@
+import EventList from "../EventList/EventList";
+
 function Main() {
     return (
-        <div>Main</div>
-    )
+        <main>
+            <EventList />
+        </main>
+    );
 }
-export default Main
+
+export default Main;

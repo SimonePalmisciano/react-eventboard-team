@@ -1,8 +1,7 @@
-function EventCard ({ title, date, category, status }) {
+function EventCard({ title, date, category, status }) {
     return (
-        <article className="event-card">
+        <div className="card">
             <h2>{title}</h2>
-
             <p>
                 <strong>Data:</strong> {date}
             </p>
@@ -14,7 +13,7 @@ function EventCard ({ title, date, category, status }) {
             <span className="event-badge">
                 {status === 'aperto' ? 'Aperto' : 'Chiuso'}
             </span>
-        </article>
+        </div>
 
     );
 }
