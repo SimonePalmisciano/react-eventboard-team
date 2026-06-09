@@ -1,3 +1,4 @@
+import EventCard from "./EventCard";
 function EventList({ events }) {
     
     if (!events || events.length === 0) {
