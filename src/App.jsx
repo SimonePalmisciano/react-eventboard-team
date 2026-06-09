@@ -3,6 +3,7 @@ import { events } from "../data/events";
 
 function App() {
   return (
+
     <main>
       <h1>EventBoard</h1>
 
@@ -20,5 +21,6 @@ function App() {
       </ul>
     </main>
   );
+
 }
 export default App;
